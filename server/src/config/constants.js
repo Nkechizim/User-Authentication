@@ -1,14 +1,14 @@
  const defaultConfig = {
-   PORT: process.env.PORT || 2000,
+   PORT: process.env.PORT || 4000,
  };
 
  const config = {
   development:{
-    DB_URL: 'mongodb://localhost/user-authentication',
+    DB_URL: 'mongodb://localhost/user-authentication-dev',
   },
 
   production:{
-    DB_URL: 'mongodb://localhost/user-authentication2',
+    DB_URL: 'mongodb://localhost/user-authentication-prod',
   }
  };
 
